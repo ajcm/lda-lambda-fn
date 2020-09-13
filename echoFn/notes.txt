@@ -1,0 +1,3 @@
+7z  a -tzip src.zip .\src\*
+
+aws lambda update-function-code --function-name echoFn --zip-file fileb://src.zip
